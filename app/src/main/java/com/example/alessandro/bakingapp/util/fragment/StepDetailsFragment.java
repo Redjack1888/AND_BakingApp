@@ -85,6 +85,8 @@ public class StepDetailsFragment extends Fragment implements Player.EventListene
     private String videoUrl;
     private long playbackPosition;
     private boolean playWhenReady = true;
+    private boolean playerStopped = false;
+    private long playerStopPosition;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the fragment
@@ -308,12 +310,22 @@ public class StepDetailsFragment extends Fragment implements Player.EventListene
         playbackPosition = exoPlayer.getCurrentPosition();
         playWhenReady = exoPlayer.getPlayWhenReady();
         exoPlayer.setPlayWhenReady(false);
+        releasePlayer();
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        if(exoPlayer != null) {
+            playerStopPosition = exoPlayer.getCurrentPosition();
+            playerStopped = true;
+            releasePlayer();
+        }
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
-        releasePlayer();
 
         if (mediaSession != null) {
             mediaSession.setActive(false);
@@ -365,6 +377,12 @@ public class StepDetailsFragment extends Fragment implements Player.EventListene
             exoPlayer.setPlayWhenReady(true);
             MediaSource mediaSource = buildMediaSource(uri);
             exoPlayer.prepare(mediaSource, true, false);
+
+            if (playbackPosition != 0 && !playerStopped){
+                exoPlayer.seekTo(playbackPosition);
+            } else {
+                exoPlayer.seekTo(playerStopPosition);
+            }
         }
     }
 
