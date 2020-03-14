@@ -27,6 +27,19 @@ In this project you will:
 - Leverage a third-party library in the app.
 - Use Fragments to create a responsive design that works on phones and tablets.
 
+## Screenshots
+<table style="margin-left: auto; margin-right: auto;" border="0">
+<tbody>
+<tr>
+<td><img src="https://github.com/Redjack1888/AND_BakingApp/blob/master/assets/Screenshot_1584090330.png" width="125" height="222" /></td>
+<td><img src="https://github.com/Redjack1888/AND_BakingApp/blob/master/assets/Screenshot_1584090341.png.png" width="125" height="222" /></td>
+<td><img src="https://github.com/Redjack1888/AND_BakingApp/blob/master/assets/Screenshot_1584090346.png" width="125" height="222" /></td>
+<td><img src="https://github.com/Redjack1888/AND_BakingApp/blob/master/assets/Screenshot_1584090356.png" width="125" height="222" /></td>
+<td><img src="https://github.com/Redjack1888/AND_BakingApp/blob/master/assets/Screenshot_1584090488.png" width="125" height="222" /></td>
+<td><img src="https://github.com/Redjack1888/AND_BakingApp/blob/master/assets/Screenshot_1584090539.png" width="125" height="222" /></td>   
+</tr>
+</tbody>
+</table>
 
 
 [1]:https://d17h27t6h515a5.cloudfront.net/topher/2017/May/59121517_baking/baking.json
