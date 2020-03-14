@@ -32,7 +32,7 @@ In this project you will:
 <tbody>
 <tr>
 <td><img src="https://github.com/Redjack1888/AND_BakingApp/blob/master/assets/Screenshot_1584090330.png" width="125" height="222" /></td>
-<td><img src="https://github.com/Redjack1888/AND_BakingApp/blob/master/assets/Screenshot_1584090341.png.png" width="125" height="222" /></td>
+<td><img src="https://github.com/Redjack1888/AND_BakingApp/blob/master/assets/Screenshot_1584090341.png" width="125" height="222" /></td>
 <td><img src="https://github.com/Redjack1888/AND_BakingApp/blob/master/assets/Screenshot_1584090346.png" width="125" height="222" /></td>
 <td><img src="https://github.com/Redjack1888/AND_BakingApp/blob/master/assets/Screenshot_1584090356.png" width="125" height="222" /></td>
 <td><img src="https://github.com/Redjack1888/AND_BakingApp/blob/master/assets/Screenshot_1584090488.png" width="125" height="222" /></td>
