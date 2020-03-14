@@ -40,6 +40,18 @@ In this project you will:
 </tr>
 </tbody>
 </table>
+<table style="margin-left: auto; margin-right: auto;" border="0">
+<tbody>
+<tr>
+<td><img src="https://github.com/Redjack1888/AND_BakingApp/blob/master/assets/Screenshot_1584091128.png" width="444" height="250" /></td>
+<td><img src="https://github.com/Redjack1888/AND_BakingApp/blob/master/assets/Screenshot_1584091400.png" width="444" height="250" /></td>
+</tr>
+  <tr>
+<td><img src="https://github.com/Redjack1888/AND_BakingApp/blob/master/assets/Screenshot_1584091426.png" width="444" height="250" /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 
 [1]:https://d17h27t6h515a5.cloudfront.net/topher/2017/May/59121517_baking/baking.json
